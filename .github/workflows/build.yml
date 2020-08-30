@@ -34,8 +34,8 @@ jobs:
       - name: Build and push container
         uses: docker/build-push-action@v1
         with:
-          username: ${{ secrets.GITHUB_ACTOR }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
           registry: docker.pkg.github.com
           repository: arc-faulquinois/frontend
           tag_with_ref: true
