@@ -7,7 +7,7 @@ Site officiel de l'association l'Arc Faulquinois utilisant [Next.js](https://nex
 Démarrer le serveur de développement :
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 Ouvrir [http://localhost:3000](http://localhost:3000) avec le navigateur pour voir le résultat.
