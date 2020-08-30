@@ -37,5 +37,5 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ github.token }}
           registry: docker.pkg.github.com
-          repository: arc-faulquinois/frontend
+          repository: arc-faulquinois/frontend/nextjs
           tag_with_ref: true
